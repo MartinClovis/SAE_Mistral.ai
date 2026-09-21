@@ -2,7 +2,7 @@
 
 ```text
 site_web/
-├── index.html                 ← Page d'accueil
+├── index.html                ← Page d'accueil
 ├── page1(a modifie).html     ← Page 1
 ├── page2(a modifie).html     ← Page 2
 ├── page3(a modifie).html     ← Page 3
@@ -10,7 +10,7 @@ site_web/
 ├── style(a modifie).css      ← Feuille de style
 └── bootstrape/
     ├── css/
-    │   └── bootsrape.css      ← Style
+    │   └── bootsrape.css     ← Style
     └── js/
         └── bootsrape.js      ← Interactions
 ```
