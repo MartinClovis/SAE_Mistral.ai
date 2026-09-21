@@ -1,6 +1,6 @@
 # Structure des fichiers
 
-'''
+'''text
 site_web/
 ├── index.html                 ← Page d'accueil
 ├── page1(a modifie).html      ← page1
