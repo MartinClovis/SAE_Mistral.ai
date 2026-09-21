@@ -1,3 +1,17 @@
+# Structure des fichiers
+
+site_web/
+├── index.html                 ← Page d'accueil
+├── page1(a modifie).html      ← page1
+├── page2(a modifie).html      ← page2
+├── page3(a modifie).html      ← page3
+├── page4(a modifie).html      ← page4
+├── style(a modifie).css       ← style
+└── bootstrape/
+    ├── css/
+        └── bootsrape.css      ← style
+    └── js/
+        └── bootsrape.js       ← interaction
 
 # SAÉ S1. 05-06
 
