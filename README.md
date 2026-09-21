@@ -2,18 +2,18 @@
 
 ```text
 site_web/
-├── index.html                ← Page d'accueil
-├── histoire.html             ← Page 1
-├── services.html             ← Page 2
-├── economie.html             ← Page 3
-├── ecologie.html             ← Page 4
-├── style.css                 ← Feuille de style
-├── interaction.js            ← Feuille interaction utilisateur
-└── bootstrape/
-    ├── css/
-    │   └── bootsrape.css     ← Style
-    └── js/
-        └── bootsrape.js      ← Interactions
+├── index.html          # Page d'accueil
+├── histoire.html       # Page Histoire & Entreprise
+├── services.html       # Page Services & Solutions
+├── economie.html       # Page Économie
+├── ecologie.html       # Page Écologie
+├── css/
+│   └── style.css       # Styles
+├── js/
+│   └── script.js       # Scripts JS 
+└── img/                # Dossier pour les médias
+    ├── logo.png
+    └── hero-visual.jpg
 ```
 
 
