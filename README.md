@@ -1,6 +1,5 @@
 # Structure des fichiers
 
-'''text
 site_web/
 ├── index.html                 ← Page d'accueil
 ├── page1(a modifie).html      ← page1
@@ -13,7 +12,7 @@ site_web/
         └── bootsrape.css      ← style
     └── js/
         └── bootsrape.js       ← interaction
-'''
+
 
 # SAÉ S1. 05-06
 
