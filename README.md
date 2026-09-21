@@ -3,11 +3,12 @@
 ```text
 site_web/
 ├── index.html                ← Page d'accueil
-├── page1(a modifie).html     ← Page 1
-├── page2(a modifie).html     ← Page 2
-├── page3(a modifie).html     ← Page 3
-├── page4(a modifie).html     ← Page 4
-├── style(a modifie).css      ← Feuille de style
+├── histoire.html             ← Page 1
+├── services.html             ← Page 2
+├── economie.html             ← Page 3
+├── ecologie.html             ← Page 4
+├── style.css                 ← Feuille de style
+├── interaction.js            ← Feuille interaction utilisateur
 └── bootstrape/
     ├── css/
     │   └── bootsrape.css     ← Style
