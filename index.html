@@ -1,14 +1,116 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index, titre temporaire</title>
-    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSsTUO_Egh_kdVzSk8vLe4khwNye5SZR_ORSbpprM_Xw&s">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mistral AI — Accueil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/java.js" defer></script>
 </head>
-<body>
-    <p>Ceci est le debut d'un long SAE, bienvenue dans notre groupe.</p>
-    <p>test</p>
+<body class="mode-sombre">
+
+  <!-- Bandeau de navigation -->
+  <header class="barre-navigation">
+    <a href="index.html" class="logo-groupe">
+      <span>GRP-15</span>
+    </a>
+
+    <nav class="zone-menu">
+      <ul class="menu-liste">
+        <li class="element-deroulant">
+          <a href="index.html" class="lien-menu">Accueil ▼</a>
+          <ul class="menu-cache">
+            <li><a href="histoire.html">Histoire</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="economie.html">Économie</a></li>
+            <li><a href="ecologie.html">Écologie</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="zone-utilisateur">
+        <a href="#" class="bouton-connexion" id="bouton-connexion">Identifiez-vous</a>
+        <button class="bouton-theme" id="bouton-theme">Mode Clair</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section de présentation -->
+  <section class="bloc-presentation">
+    <div class="conteneur-principal grille-presentation">
+      <div class="texte-presentation">
+        <h1>L'IA générative ouverte, sans compromis.</h1>
+        <p>Fondée en 2023, Mistral AI est le leader européen de l'intelligence artificielle. Ce site analyse son impact économique, ses avancées technologiques et son empreinte écologique.</p>
+        <a href="histoire.html" class="bouton-action">Explorer le dossier</a>
+      </div>
+      <div class="image-presentation">
+        <img src="img/mistral_vitre.jpg" alt="Locaux de Mistral AI">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenu principal -->
+  <main class="conteneur-principal">
+    
+    <!-- Synthèse choc / Rétention -->
+    <h2 class="titre-section">Mistral AI en 3 chiffres</h2>
+    <div class="grille-cartes">
+      <article class="carte-info">
+        <h2>2023</h2>
+        <p>Année de création à Paris par des ex-chercheurs de Meta et Google DeepMind.</p>
+      </article>
+      <article class="carte-info">
+        <h2>6 Mds €</h2>
+        <p>Valorisation atteinte en un temps record, portée par des levées de fonds majeures.</p>
+      </article>
+      <article class="carte-info">
+        <h2>Open-Weights</h2>
+        <p>Pionnier du modèle ouvert permettant le téléchargement direct des poids d'IA.</p>
+      </article>
+    </div>
+
+    <!-- Modèles analysés sur le site -->
+    <h2 class="titre-section">Les technologies étudiées</h2>
+    <div class="grille-cartes">
+      <article class="carte-info">
+        <span class="badge-categorie">Flagship</span>
+        <h3>Mistral Large</h3>
+        <p>Le modèle propriétaire le plus puissant, conçu pour le raisonnement complexe.</p>
+      </article>
+      <article class="carte-info">
+        <span class="badge-categorie">Optimisé</span>
+        <h3>Mistral Small</h3>
+        <p>Un compromis idéal entre rapidité, bas coût et faible consommation énergétique.</p>
+      </article>
+      <article class="carte-info">
+        <span class="badge-categorie">Open-Source</span>
+        <h3>Mixtral 8x22B</h3>
+        <p>Architecture à mélange d'experts (MoE) offrant des performances de pointe en code.</p>
+      </article>
+    </div>
+
+  </main>
+  
+  <!-- Pied de page -->
+  <footer class="pied-de-page">
+    <p>Crédits : POICHET Charles, RBAIHI Inas, MARTIN Clovis, OZDEMIR Dogan</p>
+    
+    <div class="pagination-pages">
+      <a href="ecologie.html">&laquo;</a>
+      <a href="#" class="page-active">1</a>
+      <a href="histoire.html">2</a>
+      <a href="services.html">3</a>
+      <a href="economie.html">4</a>
+      <a href="ecologie.html">5</a>
+      <a href="histoire.html">&raquo;</a>
+    </div>
+
+    <div class="zone-droite-footer">
+      <a href="https://mistral.ai" target="_blank" rel="noopener">Site officiel</a>
+      <button class="bouton-remonter" id="bouton-remonter">Haut de page</button>
+    </div>
+  </footer>
+
 </body>
 </html>
