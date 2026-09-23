@@ -1,167 +1,108 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mistral AI — Écologie</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/java.js" defer></script>
-</head>
-<body class="mode-sombre">
-
-  <!-- Bandeau de navigation -->
-  <header class="barre-navigation">
-    <a href="../index.html" class="logo-groupe">
-      <span>GRP-15</span>
-    </a>
-
-    <nav class="zone-menu">
-      <ul class="menu-liste">
-        <li class="element-deroulant">
-          <a href="ecologie.html" class="lien-menu">Écologie ▼</a>
-          <ul class="menu-cache">
-            <li><a href="../index.html">Accueil</a></li>
-            <li><a href="histoire.html">Histoire</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="economie.html">Économie</a></li>
-          </ul>
-        </li>
-      </ul>
-      
-      <div class="zone-utilisateur">
-        <a href="#" class="bouton-connexion" id="bouton-connexion">Identifiez-vous</a>
-        <button class="bouton-theme" id="bouton-theme">Mode Clair</button>
-      </div>
-    </nav>
-  </header>
-
 <!-- En-tête de la page (Hero) -->
-  <section class="bloc-presentation">
-    <div class="conteneur-principal texte-presentation">
-      <h1>IAG et Environnement : Transparence et Sobriété</h1>
-      <p>L'intelligence artificielle générative nécessite d'importantes ressources physiques. Face au manque de données du secteur, Mistral AI publie une Analyse du Cycle de Vie (ACV) complète réalisée avec l'ADEME et Carbone 4.</p>
+<section class="bloc-presentation">
+  <div class="conteneur-principal texte-presentation">
+    <h1>L'IA sans filtre : Sobriété, Calculs et Vérité Écologique</h1>
+    <p>L'intelligence artificielle consomme des ressources colossales. Alors que l'industrie garde souvent le silence sur ses coûts environnementaux, <strong>Mistral AI brise l'omerta</strong> en publiant une Analyse du Cycle de Vie (ACV) inédite, réalisée en partenariat avec l'ADEME et Carbone 4.</p>
+  </div>
+</section>
+
+<!-- Contenu principal -->
+<main class="conteneur-principal">
+  
+  <!-- SECTION 1 : L'Analyse du Cycle de Vie -->
+  <h2 class="titre-section">1. Une transparence inédite : L'Analyse du Cycle de Vie (ACV)</h2>
+  <p>Là où certains géants de la Techmasquent leur bilan carbone réel derrière des certifications opaques, Mistral AI a audité l'intégralité du cycle de vie de son modèle phare, <strong>Mistral Large 2</strong>. De l'extraction des minerais rares nécessaires aux processeurs GPU Nvidia jusqu'à l'eau évaporée dans les systèmes de refroidissement des datacenters, tout a été quantifié selon les normes strictes ISO 14040/44 et GHG Protocol.</p>
+  
+  <div class="conteneur-tableau">
+    <table class="tableau-donnees">
+      <thead>
+        <tr>
+          <th>Indicateur Environnemental</th>
+          <th>Empreinte Globale (18 mois d'entraînement & usage)</th>
+          <th>Empreinte par requête (400 tokens sur Le Chat)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Émissions de gaz à effet de serre</td>
+          <td><strong>20,4 kilotonnes de CO₂e</strong></td>
+          <td>1,14 g CO₂e <em>(l'équivalent d'une ampoule LED allumée quelques minutes)</em></td>
+        </tr>
+        <tr>
+          <td>Consommation d'eau douce</td>
+          <td><strong>281 000 m³ d'eau</strong></td>
+          <td>45 mL <em>(environ un petit verre d'eau ou ~55s de vidéo HD)</em></td>
+        </tr>
+        <tr>
+          <td>Épuisement des ressources minérales</td>
+          <td><strong>660 kg équivalent antimoine (Sbₑ)</strong></td>
+          <td>Inclus dans l'amortissement du matériel et des circuits imprimés</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SECTION 2 : Disposition en Tondeuse / Zigzag -->
+  <h2 class="titre-section">2. La riposte européenne : Concevoir moins cher, consommer mieux</h2>
+
+  <!-- Rangée 1 : Right-sizing & Open Weights -->
+  <div class="bloc-tondeuse">
+    <div class="texte-tondeuse">
+      <h3>La stratégie du "Right-Sizing" : Moins de paramètres, autant d'impact</h3>
+      <p>Pourquoi utiliser un camion semi-remorque pour livrer un simple courrier ? Les géants américains ont tendance à déployer des modèles monstrueux de plusieurs centaines de milliards de paramètres pour traiter des tâches simples.</p>
+      <p>Mistral AI privilégie l'efficacité chirurgicale avec des modèles ultra-optimisés comme <strong>Mistral 7B</strong> ou <strong>Mixtral 8x7B</strong>. Le résultat est immédiat : moins de cycles de calcul requis, des serveurs sollicités à un niveau moindre et une baisse directe de la facture énergétique.</p>
+      <p>Grâce à la philosophie <strong>Open-Weights</strong>, les entreprises peuvent directement héberger ces modèles sur leurs propres infrastructures sans générer de requêtes incessantes vers des clouds distants.</p>
     </div>
-  </section>
-
-  <!-- Contenu principal -->
-  <main class="conteneur-principal">
-    
-    <!-- SECTION 1 : L'Analyse du Cycle de Vie -->
-    <h2 class="titre-section">1. Une démarche de transparence : L'Analyse du Cycle de Vie (ACV)</h2>
-    <p>Contrairement aux acteurs dont les bilans restent parcellaires, Mistral AI a publié l'Analyse du Cycle de Vie complète de son modèle <strong>Mistral Large 2</strong>. Réalisée avec Carbone 4, soutenue par l’ADEME et révisée par Resilio et Hubblo (normes ISO 14040/44 et GHG Protocol), cette étude englobe toute la chaîne : de la fabrication des puces GPU au refroidissement des centres de données.</p>
-    
-    <div class="conteneur-tableau">
-      <table class="tableau-donnees">
-        <thead>
-          <tr>
-            <th>Indicateur Environnemental</th>
-            <th>Empreinte Globale (18 mois d'entraînement & usage)</th>
-            <th>Empreinte par requête moyenne (400 tokens sur Le Chat)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Émissions de gaz à effet de serre</td>
-            <td><strong>20,4 kilotonnes de CO₂e</strong></td>
-            <td>1,14 g CO₂e</td>
-          </tr>
-          <tr>
-            <td>Consommation d'eau douce</td>
-            <td><strong>281 000 m³ d'eau</strong></td>
-            <td>45 mL (équivalent à ~55 s de vidéo HD)</td>
-          </tr>
-          <tr>
-            <td>Épuisement des ressources minérales</td>
-            <td><strong>660 kg équivalent antimoine (Sbₑ)</strong></td>
-            <td>Compris dans l'amortissement du matériel</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="image-tondeuse">
+      <img src="img/gpu_silicon.jpg" alt="Composants et puces GPU haute performance">
     </div>
+  </div>
 
-    <!-- SECTION 2 : Disposition en Tondeuse pour développer la stratégie -->
-    <h2 class="titre-section">2. Sobriété algorithmique et ancrage européen</h2>
-
-    <!-- Rangée 1 : Right-sizing & Open Weights -->
-    <div class="bloc-tondeuse">
-      <div class="texte-tondeuse">
-        <h3>La sobriété par le design ("Right-Sizing")</h3>
-        <p>Plutôt que de développer exclusivement des modèles géants de plusieurs centaines de milliards de paramètres pour des tâches basiques, Mistral AI prône le dimensionnement juste. Des modèles plus compacts (comme Mistral 7B ou Mixtral 8x7B) exécutent moins de calculs, ce qui réduit directement le nombre de serveurs requis et la consommation électrique associée.</p>
-        <p>De plus, la mise à disposition sous licence <strong>Open-Weights</strong> permet aux entreprises d'héberger les modèles sur leurs propres infrastructures optimisées, évitant les requêtes réseau incessantes vers des serveurs distants.</p>
-      </div>
-      <div class="image-tondeuse">
-        <img src="img/mistral_vitre.jpg" alt="Optimisation logicielle et serveurs">
-      </div>
+  <!-- Rangée 2 : Mix énergétique -->
+  <div class="bloc-tondeuse inverse">
+    <div class="texte-tondeuse">
+      <h3>Le bouclier bas-carbone : L'atome et l'eau face au charbon</h3>
+      <p>L'empreinte réelle d'une IA dépend à 90 % de l'endroit où tourne le serveur. Alors que les centres de données américains ou asiatiques dépendent encore fortement de centrales à charbon ou au gaz naturel, Mistral AI fait le choix stratégique de l'ancrage européen.</p>
+      <p>En entraînant ses algorithmes en France et dans les pays nordiques, le pépite française tire parti d'un mix électrique très largement décarboné basé sur l'énergie nucléaire et l'hydroélectricité. Une différence majeure qui divise l'impact carbone par dix par rapport à d'autres régions du monde.</p>
     </div>
-
-    <!-- Rangée 2 : Mix énergétique -->
-    <div class="bloc-tondeuse inverse">
-      <div class="texte-tondeuse">
-        <h3>L'atome et le renouvelable européen</h3>
-        <p>L'empreinte carbone de l'IA dépend en grande partie du mix électrique des centres de données. En concentrant la majorité de ses capacités de calcul en France et dans les pays nordiques, Mistral AI bénéficie d'une électricité très largement décarbonée (nucléaire et hydraulique).</p>
-        <p>À l'inverse, des entraînements localisés dans certaines régions des États-Unis ou d'Asie reposent encore fortement sur le charbon ou le gaz naturel.</p>
-      </div>
-      <div class="image-tondeuse">
-        <img src="img/mistral_vitre.jpg" alt="Centre de données et énergie verte">
-      </div>
+    <div class="image-tondeuse">
+      <img src="img/datacenter_green.jpg" alt="Centre de données alimenté par de l'énergie verte">
     </div>
+  </div>
 
-    <!-- SECTION 3 : Cas d'usage industriels -->
-    <h2 class="titre-section">3. L'IA comme levier de décarbonation</h2>
-    <p>Bien qu'elle consomme des ressources, l'IA générative peut servir à optimiser des processus industriels existants :</p>
+  <!-- SECTION 3 : Cas d'usage industriels -->
+  <h2 class="titre-section">3. Quand l'IA devient un moteur de décarbonation</h2>
+  <p>Si l'intelligence artificielle est consommatrice d'énergie, elle peut aussi devenir un outil stratégique pour optimiser l'économie réelle :</p>
 
-    <!-- Rangée 3 : Veolia & TotalEnergies -->
-    <div class="bloc-tondeuse">
-      <div class="texte-tondeuse">
-        <h3>Cas d'usage : Veolia et TotalEnergies</h3>
-        <p><strong>Veolia :</strong> L'entreprise emploie les modèles Mistral pour traiter en temps réel les données d'exploitation des usines de dépollution. L'objectif est d'optimiser le pompage et de réduire les pertes d'eau sur les réseaux de distribution.</p>
-        <p><strong>TotalEnergies :</strong> Dans un laboratoire d'innovation commun, l'IA est déployée pour la maintenance prédictive des installations et l'analyse de projets bas-carbone. Cela permet de rationaliser la consommation énergétique interne, sans pour autant annuler l'empreinte globale du groupe pétrolier.</p>
-      </div>
-      <div class="image-tondeuse">
-        <img src="img/mistral_vitre.jpg" alt="Application industrielle de l'IA">
-      </div>
+  <!-- Rangée 3 : Veolia & TotalEnergies -->
+  <div class="bloc-tondeuse">
+    <div class="texte-tondeuse">
+      <h3>Cas d'usage : Veolia et TotalEnergies au cœur de la transition</h3>
+      <p><strong>Veolia :</strong> L'entreprise utilise les modèles Mistral pour analyser en temps réel l'exploitation des usines de dépollution. L'IA réajuste le pompage de l'eau et détecte immédiatement les fuites sur les réseaux de distribution, économisant des millions de litres d'eau.</p>
+      <p><strong>TotalEnergies :</strong> Dans le cadre d'un laboratoire d'innovation dédié, l'IA est déployée pour faire de la maintenance prédictive sur les installations industrielles et concevoir des systèmes d'énergie renouvelable plus efficaces.</p>
     </div>
-
-    <!-- SECTION 4 : Limites et paradoxes -->
-    <h2 class="titre-section">4. Limites, nuances et paradoxes sectoriels</h2>
-    <div class="grille-cartes">
-      <article class="carte-info">
-        <h3>L'effet rebond (Paradoxe de Jevons)</h3>
-        <p>Plus les modèles deviennent efficaces, légers et accessibles, plus leur fréquence d'utilisation augmente à l'échelle mondiale. La réduction de l'impact par requête risque ainsi d'être absorbée par la hausse massive du volume total de requêtes.</p>
-      </article>
-
-      <article class="carte-info">
-        <h3>Empreinte matérielle hors Europe</h3>
-        <p>Même si l'entraînement a lieu en France avec de l'électricité décarbonée, la fabrication des cartes graphiques (GPU Nvidia) dépend d'une chaîne de valeur internationale à fort impact (extraction de terres rares et composants asiatiques).</p>
-      </article>
-
-      <article class="carte-info">
-        <h3>Absence de normes universelles</h3>
-        <p>Bien que l'étude menée avec l'ADEME soit une avancée majeure, l'absence de standards internationaux homogènes rend les comparaisons directes avec les modèles concurrents parfois délicates à établir.</p>
-      </article>
+    <div class="image-tondeuse">
+      <img src="img/solaires_eoliennes.jpg" alt="Énergies renouvelables et transition industrielle">
     </div>
+  </div>
 
-  </main>
+  <!-- SECTION 4 : Limites et paradoxes -->
+  <h2 class="titre-section">4. Effet rebond et réalité matérielle : L'envers du décor</h2>
+  <div class="grille-cartes">
+    <article class="carte-info">
+      <h3>L'effet rebond (Paradoxe de Jevons)</h3>
+      <p>Plus une technologie devient efficace, abordable et rapide, plus on l'utilise. Si l'empreinte de chaque requête baisse, l'explosion du volume mondial de requêtes risque de compenser tous les gains écologiques réalisés.</p>
+    </article>
 
-  <!-- Pied de page -->
-  <footer class="pied-de-page">
-    <p>Crédits : POICHET Charles</p>
-    
-    <div class="pagination-pages">
-      <a href="economie.html">&laquo;</a>
-      <a href="../index.html">1</a>
-      <a href="histoire.html">2</a>
-      <a href="services.html">3</a>
-      <a href="economie.html">4</a>
-      <a href="#" class="page-active">5</a>
-      <a href="../index.html">&raquo;</a>
-    </div>
+    <article class="carte-info">
+      <h3>La réalité physique des GPU</h3>
+      <p>Même avec une électricité française 100 % décarbonée, la création des cartes graphiques (Nvidia) nécessite l'extraction de terres rares et des composants fabriqués à l'autre bout du monde avec une empreinte matérielle lourde.</p>
+    </article>
 
-    <div class="zone-droite-footer">
-      <a href="https://mistral.ai" target="_blank" rel="noopener">Site officiel</a>
-      <button class="bouton-remonter" id="bouton-remonter">Haut de page</button>
-    </div>
-  </footer>
+    <article class="carte-info">
+      <h3>Le défi de la normalisation</h3>
+      <p>Faute d'un standard mondial contraignant, comparer les chiffres de Mistral AI avec ceux de ses concurrents américains reste difficile, ces derniers ne publiant pas leurs données avec le même niveau de précision.</p>
+    </article>
+  </div>
 
-</body>
-</html>
+</main>
