@@ -1,7 +1,7 @@
 # Structure des fichiers
 
 ```text
-site_web/
+site/
 ├── index.html          # Page d'accueil
 ├── histoire.html       # Page Histoire & Entreprise
 ├── services.html       # Page Services & Solutions
