@@ -1,19 +1,19 @@
 # Structure des fichiers
 
 ```text
-site/
 ├── index.html          # Page d'accueil
-├── histoire.html       # Page Histoire & Entreprise
-├── services.html       # Page Services & Solutions
-├── economie.html       # Page Économie
-├── ecologie.html       # Page Écologie
-├── css/
-│   └── style.css       # Styles
-├── js/
-│   └── script.js       # Scripts JS 
-└── img/                # Dossier pour les médias
-    ├── logo.png
-    └── hero-visual.jpg
+└──site/
+    ├── histoire.html       # Page Histoire & Entreprise
+    ├── services.html       # Page Services & Solutions
+    ├── economie.html       # Page Économie
+    ├── ecologie.html       # Page Écologie
+    ├── css/
+    │   └── style.css       # Styles
+    ├── js/
+    │   └── script.js       # Scripts JS 
+    └── img/                # Dossier pour les médias
+        ├── logo.png
+        └── hero-visual.jpg
 ```
 
 
