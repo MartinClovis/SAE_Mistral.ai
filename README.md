@@ -34,4 +34,4 @@ Etudiant 4 : [OZDEMIR Dogan](mailto:dogan.ozdemir@edu.univ-fcomte.fr?subject=SAE
 
 Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre part, pour se faire, on devra créer un site web pour la présenter tout en se répartissant les taches a travers les 4 membres du groupes, taches recueilli dans le dossier SAE sous moodle. Il va y avoir 5 pages; une page d'acceuil et 4 autres pages en fonction de se que l'on veut présenter (d'autres taches seront demander et aussi archiver sur le SEA de moodle). Chaque élèves devra avoir fait au moins une page et celle-ci devra ressemblés aux autres. Dans un dernier temps, le site web et l'entreprise seront présenter sous forme d'exposer avec des diaporamas créer par impress ou powerpoint par exemple.
 
-# [Moodle](https://moodle.univ-fcomte.fr/course/view.php?id=20777) / [Site web](https://martinclovis.github.io/SAE_Mistral.ai/)
+# [Moodle](https://moodle.univ-fcomte.fr/course/view.php?id=20777)
