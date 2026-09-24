@@ -21,7 +21,7 @@
 
 ## Mistral.ai
 
-[SAE_Mistral.ai](https://github.com/MartinClovis/SAE_Mistral.ai/tree/main)
+[SAE_Mistral.ai](https://MartinClovis.github.io/SAE_Mistral.ai/tree/main)
 
 ## Membres du groupe :
 
