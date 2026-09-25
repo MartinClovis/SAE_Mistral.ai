@@ -1,6 +1,8 @@
 # Structure des fichiers
 
 ```text
+├── github/workflows
+├── README.md
 ├── index.html          # Page d'accueil
 └──site/
     ├── histoire.html       # Page Histoire & Entreprise
@@ -12,8 +14,13 @@
     ├── js/
     │   └── script.js       # Scripts JS 
     └── img/                # Dossier pour les médias
-        ├── logo.png
-        └── hero-visual.jpg
+        ├── arr_evolution.png
+        ├── favicon.ico
+        ├── levées_valorisation.png
+        ├── mistral-ai.jpg
+        ├── mistral-chat.jpg
+        ├── mistral_vitre.jpg
+        └── temp.jpg
 ```
 
 
