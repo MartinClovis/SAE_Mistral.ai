@@ -1,3 +1,9 @@
+/*-------------------
+favicon
+-------------------*/
+head {
+   <link rel="icon" type="image/x-icon" href="./img/favicon.ico/">
+}
 /* -----------------------------------
    VARIABLES (MODE CLAIR ET SOMBRE)
    ----------------------------------- */
