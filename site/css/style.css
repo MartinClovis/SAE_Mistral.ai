@@ -27,11 +27,20 @@ body.mode-sombre {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--police-principale);
   background-color: var(--couleur-fond);
   color: var(--couleur-texte);
   line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .conteneur-principal {
@@ -95,7 +104,8 @@ body {
   padding: 8px 0;
 }
 
-.element-deroulant:hover .menu-cache {
+.element-deroulant:hover .menu-cache,
+.element-deroulant:focus-within .menu-cache {
   display: block;
 }
 
@@ -106,7 +116,8 @@ body {
   text-decoration: none;
 }
 
-.menu-cache a:hover {
+.menu-cache a:hover,
+.menu-cache a:focus {
   color: var(--couleur-orange);
 }
 
@@ -316,15 +327,66 @@ body {
 
 .texte-tondeuse {
   flex: 1;
+  min-width: 0;
 }
 
 .image-tondeuse {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
 }
 
 .image-tondeuse img {
+  display: block;
   width: 100%;
+  max-width: 100%;
   height: 220px;
   object-fit: cover;
   border-radius: 8px;
+  border: 1px solid var(--couleur-bordure);
+}
+
+/* -----------------------------------
+   RESPONSIVE
+   ----------------------------------- */
+@media (max-width: 760px) {
+  .barre-navigation {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+    padding: 14px 20px;
+  }
+
+  .zone-menu,
+  .zone-utilisateur {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .grille-presentation,
+  .grille-cartes,
+  .bloc-tondeuse,
+  .bloc-tondeuse.inverse {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .image-tondeuse {
+    width: 100%;
+  }
+
+  .image-tondeuse img {
+    height: auto;
+    max-height: 260px;
+    object-fit: contain;
+  }
+
+  .pied-de-page {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
 }
