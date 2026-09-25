@@ -2,23 +2,24 @@
    VARIABLES (MODE CLAIR ET SOMBRE)
    ----------------------------------- */
 :root {
-  --couleur-fond: #f8f9fa;
-  --couleur-fond-section: #eef2f6;
-  --couleur-carte: #ffffff;
-  --couleur-texte: #1a1d20;
-  --couleur-texte-secondaire: #6c757d;
-  --couleur-orange: #ff7000;
-  --couleur-bordure: #e0e0e0;
+  --couleur-fond: #F4F8FC;        
+  --couleur-fond-section: #E5F0FA;
+  --couleur-carte: #FFFFFF;
+  --couleur-texte: #044D8C;      
+  --couleur-texte-secondaire: #4A607A;
+  --couleur-orange: var(--orange-accent);
+  --couleur-bordure: var(--bleu-clair);
   --police-principale: 'Space Grotesk', sans-serif;
 }
 
 body.mode-sombre {
-  --couleur-fond: #0f1117;
-  --couleur-fond-section: #1a1d26;
-  --couleur-carte: #161922;
-  --couleur-texte: #f3f4f6;
-  --couleur-texte-secondaire: #9ca3af;
-  --couleur-bordure: #2d313e;
+--couleur-fond: #021B38;       
+--couleur-fond-section: #042D54;
+--couleur-carte: #044D8C;      
+--couleur-texte: #F4F8FC;
+--couleur-texte-secondaire: var(--bleu-clair);
+--couleur-orange: var(--orange-accent);
+--couleur-bordure: var(--bleu-principal);
 }
 
 * {
