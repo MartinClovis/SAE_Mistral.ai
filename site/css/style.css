@@ -1,25 +1,34 @@
 /* -----------------------------------
    VARIABLES (MODE CLAIR ET SOMBRE)
    ----------------------------------- */
+/* -----------------------------------
+   VARIABLES (FIXÉES ET FONCTIONNELLES)
+   ----------------------------------- */
 :root {
+  --bleu-principal: #054BA6;      
+  --bleu-fonce: #044D8C;          
+  --bleu-clair: #BBD8F2;          
+  --bleu-accent: #0487D9;         
+  --orange-accent: #F27507;       
+
   --couleur-fond: #F4F8FC;        
   --couleur-fond-section: #E5F0FA;
   --couleur-carte: #FFFFFF;
-  --couleur-texte: #044D8C;      
+  --couleur-texte: #044D8C;       
   --couleur-texte-secondaire: #4A607A;
-  --couleur-orange: var(--orange-accent);
-  --couleur-bordure: var(--bleu-clair);
+  --couleur-orange: #F27507;
+  --couleur-bordure: #BBD8F2;
   --police-principale: 'Space Grotesk', sans-serif;
 }
 
 body.mode-sombre {
---couleur-fond: #021B38;       
---couleur-fond-section: #042D54;
---couleur-carte: #044D8C;      
---couleur-texte: #F4F8FC;
---couleur-texte-secondaire: var(--bleu-clair);
---couleur-orange: var(--orange-accent);
---couleur-bordure: var(--bleu-principal);
+  --couleur-fond: #021B38;        
+  --couleur-fond-section: #042D54;
+  --couleur-carte: #044D8C;       
+  --couleur-texte: #F4F8FC;
+  --couleur-texte-secondaire: #BBD8F2;
+  --couleur-orange: #F27507;
+  --couleur-bordure: #054BA6;
 }
 
 * {
