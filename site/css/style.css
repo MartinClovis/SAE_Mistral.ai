@@ -8,13 +8,13 @@
   --bleu-accent: #0487D9;         
   --orange-accent: #F27507;       
 */
-  --couleur-fond: #F27507;        
-  --couleur-fond-section: #E5F0FA;
+  --couleur-fond: #AAAAAA;        
+  --couleur-fond-section: #AAAAAA;
   --couleur-carte: #FFFFFF;
-  --couleur-texte: #044D8C;       
-  --couleur-texte-secondaire: #4A607A;
-  --couleur-orange: #F27507;
-  --couleur-bordure: #BBD8F2;
+  --couleur-texte: #AAAAAA;       
+  --couleur-texte-secondaire: #AAAAAA;
+  --couleur-orange: #AAAAAA;
+  --couleur-bordure: #AAAAAA;
   --police-principale: 'Space Grotesk', sans-serif;
 }
 
