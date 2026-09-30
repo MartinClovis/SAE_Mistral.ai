@@ -1,31 +1,30 @@
 function init() {
-  // Récupère l'élément du bouton/switch
-  const toggleBtn = document.getElementById("toggle-theme");
-  if (!toggleBtn) return; // Sécurité si l'élément n'existe pas sur la page
+  // 1. Récupère le bouton par son VRAI ID dans le HTML
+  const btnTheme = document.getElementById("bouton-theme");
+  if (!btnTheme) return;
 
-  // Récupère le thème sauvegardé
+  // 2. Vérifie si le mode sombre était déjà activé
   const savedTheme = localStorage.getItem("theme");
   const isDark = savedTheme === "dark";
 
-  // Applique la classe 'mode-sombre' au body si nécessaire
+  // 3. Applique la BONE classe CSS (mode-sombre) au body
   document.body.classList.toggle("mode-sombre", isDark);
+  
+  // Met à jour le texte du bouton au chargement
+  btnTheme.textContent = isDark ? "Mode Clair" : "Mode Sombre";
 
-  // Ajuste l'état du bouton/checkbox
-  if (toggleBtn.type === "checkbox") {
-    toggleBtn.checked = isDark;
-  }
+  // 4. Écoute le clic sur le bouton
+  btnTheme.addEventListener("click", function () {
+    // Bascule la classe mode-sombre
+    const estSombre = document.body.classList.toggle("mode-sombre");
+    
+    // Change le texte du bouton
+    btnTheme.textContent = estSombre ? "Mode Clair" : "Mode Sombre";
 
-  // Écouteur d'événement au changement
-  toggleBtn.addEventListener("change", function () {
-    const isChecked = this.checked;
-    
-    // Bascule la classe sur le body
-    document.body.classList.toggle("mode-sombre", isChecked);
-    
-    // Sauvegarde dans le localStorage
-    localStorage.setItem("theme", isChecked ? "dark" : "light");
+    // Sauvegarde la préférence dans le navigateur
+    localStorage.setItem("theme", estSombre ? "dark" : "light");
   });
 }
 
-// Exécution au chargement de la page
-window.addEventListener("DOMContentLoaded", init);
+// Lance la fonction init quand le DOM est prêt
+document.addEventListener("DOMContentLoaded", init);
