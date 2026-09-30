@@ -1,27 +1,31 @@
-// Récupère le thème sauvegardé dans le localStorage
-  let savedTheme = localStorage.getItem("theme");
-  // Convertit en booléen (true si thème sombre)
-  let isDark = savedTheme === "dark";
+function init() {
+  // Récupère l'élément du bouton/switch
+  const toggleBtn = document.getElementById("toggle-theme");
+  if (!toggleBtn) return; // Sécurité si l'élément n'existe pas sur la page
 
-  // Applique le thème sombre au body si nécessaire
-  document.body.classList.toggle("dark-mode", isDark);
-  // Applique le thème sombre à la navigation si nécessaire
-  document.querySelector("nav").classList.toggle("dark-mode", isDark);
-  // Coche/décoche le switch selon le thème
-  document.getElementById("toggle-theme").checked = isDark;
+  // Récupère le thème sauvegardé
+  const savedTheme = localStorage.getItem("theme");
+  const isDark = savedTheme === "dark";
 
-  // Ajoute un écouteur d'événement sur le changement du switch
-  document.getElementById("toggle-theme").addEventListener("change", function () {
-    // Récupère l'état du switch (true = sombre activé)
-    const dark = this.checked;
-    // Active/désactive le thème sombre sur le body
-    document.body.classList.toggle("dark-mode", dark);
-    // Active/désactive le thème sombre sur la nav
-    document.querySelector("nav").classList.toggle("dark-mode", dark);
-    // Sauvegarde le choix dans le localStorage
-    localStorage.setItem("theme", dark ? "dark" : "light");
+  // Applique la classe 'mode-sombre' au body si nécessaire
+  document.body.classList.toggle("mode-sombre", isDark);
+
+  // Ajuste l'état du bouton/checkbox
+  if (toggleBtn.type === "checkbox") {
+    toggleBtn.checked = isDark;
+  }
+
+  // Écouteur d'événement au changement
+  toggleBtn.addEventListener("change", function () {
+    const isChecked = this.checked;
+    
+    // Bascule la classe sur le body
+    document.body.classList.toggle("mode-sombre", isChecked);
+    
+    // Sauvegarde dans le localStorage
+    localStorage.setItem("theme", isChecked ? "dark" : "light");
   });
 }
 
-// Quand la page est complètement chargée, exécute la fonction init()
-window.onload = init;
+// Exécution au chargement de la page
+window.addEventListener("DOMContentLoaded", init);
