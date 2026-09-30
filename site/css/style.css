@@ -122,15 +122,6 @@ body {
   align-items: center;
   gap: 16px;
 }
-
-.bouton-connexion {
-  color: var(--couleur-texte);
-  text-decoration: none;
-  padding: 6px 16px;
-  border: 1px solid var(--couleur-bordure);
-  border-radius: 6px;
-}
-
 .bouton-theme {
   background: transparent;
   border: 1px solid var(--couleur-orange);
