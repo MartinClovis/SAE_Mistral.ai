@@ -11,8 +11,6 @@
     ├── ecologie.html       # Page Écologie
     ├── css/
     │   └── style.css       # Styles
-    ├── js/
-    │   └── script.js       # Scripts JS 
     └── img/                # Dossier pour les médias
         ├── arr_evolution.png
         ├── favicon.ico
