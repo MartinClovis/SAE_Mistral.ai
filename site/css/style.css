@@ -18,16 +18,6 @@
   --police-principale: 'Space Grotesk', sans-serif;
 }
 
-body.mode-sombre {
-  --couleur-fond: #021B38;        
-  --couleur-fond-section: #042D54;
-  --couleur-carte: #044D8C;       
-  --couleur-texte: #F4F8FC;
-  --couleur-texte-secondaire: #BBD8F2;
-  --couleur-orange: #F27507;
-  --couleur-bordure: #054BA6;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
