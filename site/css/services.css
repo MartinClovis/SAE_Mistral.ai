@@ -1,1 +1,97 @@
+.services-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 55px auto 45px;
+}
 
+.services-intro h1 {
+  font-size: 38px;
+  margin: 12px 0 18px;
+}
+
+.services-intro p {
+  color: var(--couleur-texte-secondaire);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.services-cartes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-bottom: 50px;
+}
+
+.service-carte {
+  background-color: var(--couleur-carte);
+  border: 1px solid var(--couleur-bordure);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.service-carte:hover {
+  transform: translateY(-5px);
+}
+
+.service-carte img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.service-contenu {
+  padding: 22px;
+}
+
+.service-contenu h2 {
+  color: var(--couleur-orange);
+  font-size: 25px;
+  margin: 6px 0 10px;
+}
+
+.service-contenu p {
+  color: var(--couleur-texte-secondaire);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.services-infos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  border-top: 1px solid var(--couleur-bordure);
+  padding: 35px 0 55px;
+}
+
+.services-infos div {
+  text-align: center;
+  padding: 15px;
+}
+
+.services-infos strong {
+  display: block;
+  color: var(--couleur-orange);
+  font-size: 17px;
+  margin-bottom: 7px;
+}
+
+.services-infos span {
+  color: var(--couleur-texte-secondaire);
+  font-size: 14px;
+}
+
+@media (max-width: 700px) {
+  .services-cartes {
+    grid-template-columns: 1fr;
+  }
+
+  .services-infos {
+    grid-template-columns: 1fr;
+  }
+
+  .services-intro h1 {
+    font-size: 30px;
+  }
+}
