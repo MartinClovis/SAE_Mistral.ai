@@ -45,6 +45,8 @@ Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre par
 
 # Accueil
 
+**Auteur : Poichet Charles**  
+
 Objectif : Capter l'attention du visiteur, poser l'identité visuelle de Mistral
 AI et orienter vers les sections clés du site.
 
@@ -56,6 +58,8 @@ modèles phares.
 
 # histoire
 
+**Auteur : Martin Clovis**  
+
 Objectif : Présenter l'origine de Mistral AI, ses fondateurs et sa vision
 stratégique.
 
@@ -65,6 +69,8 @@ présentation des valeurs et de l'équipe.
 
 # Services
 
+**Auteur : Rbaihi Inas**  
+
 Objectif : Détailler les offres technologiques, les modèles d'IA et leurs cas
 d'usage concrets.
 
@@ -72,6 +78,8 @@ Contenu : Grille comparative de la gamme de modèles ; cas d'usage
 métiers ; zone d'appel à l'action pour tester l'API ou contacter l'équipe.
 
 # Economie
+
+**Auteur : Ozdemir Dogan**  
 
 Objectif : Expliquer le modèle économique de Mistral AI et son impact sur
 le marché.
@@ -81,6 +89,8 @@ fonctionnement du modèle de tarification ; chiffres clés (levées de fonds,
 valorisation) ; graphique comparatif du rapport coût/performance.
 
 # Ecologie
+
+**Auteur : Poichet Charles**
 
 Objectif : Démontrer la démarche de responsabilité environnementale et
 l'efficience énergétique des modèles.
