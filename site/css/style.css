@@ -249,15 +249,6 @@ body {
   gap: 16px;
 }
 
-.bouton-remonter {
-  background-color: var(--couleur-carte);
-  color: var(--couleur-texte);
-  border: 1px solid var(--couleur-bordure);
-  padding: 6px 13px;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
 /* -----------------------------------
    TABLEAU 
    ----------------------------------- */
