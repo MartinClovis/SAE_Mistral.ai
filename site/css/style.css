@@ -15,7 +15,7 @@
   --couleur-texte-secondaire: #073B69;
   --couleur-orange: #F27507;
   --couleur-bordure: #F27507;
-  --police-principale: 'Space Grotesk', sans-serif, #073B69;
+  --police-principale: 'Space Grotesk', sans-serif;
 }
 
 * {
