@@ -39,9 +39,54 @@ Etudiant 4 : [OZDEMIR Dogan](mailto:dogan.ozdemir@edu.univ-fcomte.fr?subject=SAE
 
 Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre part, pour se faire, on devra créer un site web pour la présenter tout en se répartissant les taches a travers les 4 membres du groupes, taches qui seront recueilli dans le dossier SAE dans moodle. Il y aura 5 pages, ces 5 pages seront conformes aux demandes du/des client, il y aura donc ; une page d'accueil, une page sur l'histoire de la compagnie, une sur les services fournis par l'entreprise, une autre sur l'économie et une dernière sur l'écologie (d'autres taches seront demander sur le SAE de moodle). Chaque élèves devra avoir fait au moins une page et celle-ci devra ressemblés aux autres. Dans un dernier temps, le site web et l'entreprise seront présenter sous forme d'exposer avec des diaporamas créer par impress ou PowerPoint par exemple.
 
+## Choix de conception
+
+...
+
 # [Moodle](https://moodle.univ-fcomte.fr/course/view.php?id=20777)
 
-## Présentation des pages
+## Développement Site Web et Validation des pages
+
+### Page d'accueil
+
+**Auteur**
+
+Vérification W3C : [Détail ICI](https://.....)
+
+![capture d'écran de la conformité de la page ...]()
+
+### Présentation générale
+
+**Auteur**
+
+Vérification W3C : [Détail ICI](https://.....)
+
+![capture d'écran de la conformité de la page ...]()
+
+**Auteur**
+
+Vérification W3C : [Détail ICI](https://.....)
+
+![capture d'écran de la conformité de la page ...]()
+
+**Auteur**
+
+Vérification W3C : [Détail ICI](https://.....)
+
+![capture d'écran de la conformité de la page ...]()
+
+**Auteur**
+
+Vérification W3C : [Détail ICI](https://.....)
+
+![capture d'écran de la conformité de la page ...]()
+
+## Recherche d'information
+
+- Nom Prenom
+  ...
+
+## Développement du site et présentation des pages
 
 # Accueil
 
@@ -99,3 +144,7 @@ Contenu : Engagements sur la sobriété numérique ; explications sur
 l'optimisation des architectures IA ; tableau comparatif de l'empreinte
 carbone et de la consommation d'énergie ; mise en avant des datacenters
 décarbonés.
+
+## Contributeurs
+
+![capture d'écran sur la contribution des membres du projet](...)
