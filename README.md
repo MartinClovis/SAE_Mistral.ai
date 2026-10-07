@@ -56,7 +56,7 @@ phrases ; cartes visuelles mettant en avant les points forts de la marque
 (Open-source, Performance, Indépendance européenne) ; aperçu des
 modèles phares.
 
-# histoire
+# Histoire
 
 **Auteur : Martin Clovis**  
 
