@@ -25,7 +25,7 @@
 }
 
 body {
-  font-family: var(--bleu-fonce);
+  font-family: var(--police-principale);
   background-color: var(--couleur-fond);
   color: var(--police-principale);
   line-height: 1.6;
