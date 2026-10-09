@@ -45,7 +45,7 @@ Etudiant 4 : [OZDEMIR Dogan](mailto:dogan.ozdemir@edu.univ-fcomte.fr?subject=SAE
 (pour copier l'addresse email d'un étudiant, faites un clique droit sur un prénom)
 # Présentation du projet
 
-Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre part, pour se faire, on devra créer un site web pour la présenter tout en se répartissant les taches a travers les 4 mem[...]
+Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre part, pour se faire, on devra créer un site web pour la présenter tout en se répartissant les taches a travers les 4 membres du groupes, taches qui seront recueilli dans le dossier SAE dans moodle. Il y aura 5 pages, ces 5 pages seront conformes aux demandes du/des client, il y aura donc ; une page d'accueil, une page sur l'histoire de la compagnie, une sur les services fournis par l'entreprise, une autre sur l'économie et une dernière sur l'écologie (d'autres taches seront demander sur le SAE de moodle). Chaque élèves devra avoir fait au moins une page et celle-ci devra ressemblés aux autres. Dans un dernier temps, le site web et l'entreprise seront présenter sous forme d'exposer avec des diaporamas créer par impress ou PowerPoint par exemple.
 
 ## Choix de conception
 
