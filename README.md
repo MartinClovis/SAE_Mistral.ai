@@ -50,7 +50,7 @@ Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre par
 
 ## Choix de conception
 
-...
+Pour la réalisation de notre site web nous nous somme inspirer du site officiel de Mistral AI.
 
 # [Moodle](https://moodle.univ-fcomte.fr/course/view.php?id=20777)
 
