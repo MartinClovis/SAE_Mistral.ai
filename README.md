@@ -103,8 +103,11 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
 ## Recherche d'information
 
-- Nom Prenom ->
-  ...
+- POICHET Charles, RBAIHI Inas, MARTIN Clovis, OZDEMIR Dogan -> recherche sur le contenu de la page d'accueil
+- MARTIN Clovis -> recherche sur l'histoire de Mistral AI
+- RBAIHI Inas -> recherche sur les services de l'entreprise Mistral AI
+- OZDEMIR Dogan -> recherche sur les chiffres d'affaires et l'économie de Mistral AI
+- POICHET Charles -> recherche sur l'aspect écologique de Mistral AI
 
 ## Développement du site et présentation des pages
 
