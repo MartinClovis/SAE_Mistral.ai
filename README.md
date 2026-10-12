@@ -64,7 +64,7 @@ Vérification W3C : [Détail ICI](https://.....)
 
 ![capture d'écran de la conformité de la page ...]()
 
-### Présentation générale
+### Page
 
 **Auteur**
 
@@ -72,17 +72,23 @@ Vérification W3C : [Détail ICI](https://.....)
 
 ![capture d'écran de la conformité de la page ...]()
 
-**Auteur**
-
-Vérification W3C : [Détail ICI](https://.....)
-
-![capture d'écran de la conformité de la page ...]()
+### Page
 
 **Auteur**
 
 Vérification W3C : [Détail ICI](https://.....)
 
 ![capture d'écran de la conformité de la page ...]()
+
+### Page
+
+**Auteur**
+
+Vérification W3C : [Détail ICI](https://.....)
+
+![capture d'écran de la conformité de la page ...]()
+
+### Page
 
 **Auteur**
 
@@ -92,7 +98,7 @@ Vérification W3C : [Détail ICI](https://.....)
 
 ## Recherche d'information
 
-- Nom Prenom
+- Nom Prenom ->
   ...
 
 ## Développement du site et présentation des pages
