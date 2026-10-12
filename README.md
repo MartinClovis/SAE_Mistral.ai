@@ -80,13 +80,13 @@ Vérification W3C : [Détail ICI]()
 
 ![capture d'écran de la conformité de la page services]()
 
-### Page
+### Page economie
 
-**Auteur**
+**Auteur** OZDEMIR Dogan
 
-Vérification W3C : [Détail ICI](https://.....)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page economie](site/img/Economie.png)
 
 ### Page
 
