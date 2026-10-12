@@ -58,15 +58,15 @@ Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre par
 
 ### Page d'accueil
 
-**Auteur**
+**Auteur** POICHET Charles, RBAIHI Inas, MARTIN Clovis, OZDEMIR Dogan
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
 ![capture d'écran de la conformité de la page](site/img/W3C_Accueil.png)
 
-### Page
+### Page histoire
 
-**Auteur**
+**Auteur** MARTIN Clovis
 
 Vérification W3C : [Détail ICI](https://.....)
 
