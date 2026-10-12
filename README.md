@@ -12,6 +12,7 @@
     ├── css/
     │   └── style.css       # Styles
     └── img/                # Dossier pour les médias
+        ├── Contributeur.png
         ├── Mistral_AI_logo.png
         ├── arr_evolution.png
         ├── datacenter_energie_renouv.png
@@ -155,4 +156,4 @@ décarbonés.
 
 ## Contributeurs
 
-![capture d'écran sur la contribution des membres du projet](...)
+![capture d'écran sur la contribution des membres du projet](site/img/Contributeur.png)
