@@ -60,9 +60,9 @@ Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre par
 
 **Auteur**
 
-Vérification W3C : [Détail ICI](https://.....)
+Vérification W3C : [Détail ICI](https://https://validator.w3.org/nu/#textarea)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page](site/img/W3C_Accueil)
 
 ### Page
 
