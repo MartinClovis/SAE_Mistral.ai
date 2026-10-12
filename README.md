@@ -86,15 +86,15 @@ Vérification W3C : [Détail ICI]()
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
-![capture d'écran de la conformité de la page economie](site/img/Economie.png)
+![capture d'écran de la conformité de la page economie](site/img/W3C_Economie.png)
 
-### Page
+### Page écologie
 
-**Auteur**
+**Auteur** POICHET Charles
 
-Vérification W3C : [Détail ICI](https://.....)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page ecologie](site/img/W3C_Ecologie.png)
 
 ## Recherche d'information
 
