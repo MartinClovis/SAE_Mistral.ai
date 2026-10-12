@@ -81,9 +81,9 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
 **Auteur** RBAIHI Inas
 
-Vérification W3C : [Détail ICI]()
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
-![capture d'écran de la conformité de la page services]()
+![capture d'écran de la conformité de la page services](site/img/W3C_Services.png)
 
 ### Page economie
 
