@@ -62,23 +62,23 @@ Dans se projet nous devrons présenter une entreprise, mistral.ai pour notre par
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
-![capture d'écran de la conformité de la page](site/img/W3C_Accueil.png)
+![capture d'écran de la conformité de la page d'accueil](site/img/W3C_Accueil.png)
 
 ### Page histoire
 
 **Auteur** MARTIN Clovis
 
-Vérification W3C : [Détail ICI](https://.....)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page histoire](site/img/W3C_Histoire.png)
 
-### Page
+### Page services
 
-**Auteur**
+**Auteur** RBAIHI Inas
 
-Vérification W3C : [Détail ICI](https://.....)
+Vérification W3C : [Détail ICI]()
 
-![capture d'écran de la conformité de la page ...]()
+![capture d'écran de la conformité de la page services]()
 
 ### Page
 
