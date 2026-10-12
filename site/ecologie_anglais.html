@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mistral AI — Ecology</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="root">
+
+  <!-- Navigation Bar -->
+  <header class="barre-navigation">
+    <a href="../index.html" class="logo-groupe">
+      <span>GRP-15</span>
+    </a>
+
+    <nav class="zone-menu">
+      <ul class="menu-liste">
+        <li class="element-deroulant">
+          <a href="ecologie.html" class="lien-menu">Ecology ▼</a>
+          <ul class="menu-cache">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="histoire.html">History</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="economie.html">Economy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Page Header (Hero) -->
+<section class="bloc-presentation">
+  <div class="conteneur-principal texte-presentation">
+    <h1>Mistral: A Company Committed to Environmental Sustainability</h1>
+    <p>Artificial intelligence consumes massive amounts of resources. While the industry often remains silent on its environmental costs, Mistral AI breaks the mold by publishing an unprecedented Life Cycle Assessment (LCA), conducted in partnership with ADEME and Carbone 4.</p>
+  </div>
+</section>
+
+<!-- Main Content -->
+<main class="conteneur-principal">
+  
+  <!-- SECTION 1: Life Cycle Assessment -->
+  <h2 class="titre-section">1. Unprecedented Transparency</h2>
+  <p>Where some tech giants lack transparency on these metrics, Mistral AI has documented the entire life cycle of its flagship model, <strong>Mistral Large 2</strong>. The study covers various life cycle stages, including equipment manufacturing, operation, model training, and inference, following strict ISO 14040/44 and GHG Protocol standards.</p>
+  
+  <div class="conteneur-tableau">
+    <table class="tableau-donnees">
+      <thead>
+        <tr>
+          <th>Environmental Indicator</th>
+          <th>Global Footprint (18 months of training & usage)</th>
+          <th>Footprint per Request (400 tokens on Le Chat)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Greenhouse gas emissions</td>
+          <td><strong>20.4 kilotons of CO₂e</strong></td>
+          <td>1.14 g CO₂e <em>(equivalent to an LED light bulb turned on for a few minutes)</em></td>
+        </tr>
+        <tr>
+          <td>Freshwater consumption</td>
+          <td><strong>281,000 m³ of water</strong></td>
+          <td>45 mL <em>(about a small glass of water or ~55s of HD video streaming)</em></td>
+        </tr>
+        <tr>
+          <td>Mineral resource depletion</td>
+          <td><strong>660 kg antimony equivalent (Sbₑ)</strong></td>
+          <td>Included in hardware and circuit board depreciation</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SECTION 2: Alternating / Zigzag Layout -->
+  <h2 class="titre-section">2. The European Response: Designing Greener, Consuming Smarter</h2>
+
+<!-- Row 1: Right-sizing & Open-Weights -->
+<div class="bloc-tondeuse">
+  <div class="texte-tondeuse">
+    <h3>"Right-Sizing" and Open-Weights: Efficiency Through Code</h3>
+    <p>Why use a semi-truck to deliver a simple letter? American tech giants deploy massive models with hundreds of billions of parameters, even for basic questions.</p>
+    <p>Mistral AI chooses to build lightweight yet highly efficient models, such as Mistral 7B or Mixtral 8x7B. The direct benefit: fewer computations needed, lower server loads, and reduced electricity consumption.</p>
+    <p>The Open-Weights approach makes the model "brains" downloadable. Companies and researchers can run them locally on their own optimized machines.</p>
+    <p>This avoids sending millions of network requests daily to giant data centers across the globe. By reducing endless network traffic and enabling local AI execution, Open-Weights minimizes the overall carbon footprint tied to data transfer.</p>
+  </div>
+  <div class="image-tondeuse">
+    <img src="" alt="High-performance GPU components and chips">
+  </div>
+</div>
+
+<!-- Row 2: Energy Mix -->
+<div class="bloc-tondeuse inverse">
+  <div class="texte-tondeuse">
+    <h3>Water, the Blue Gold</h3>
+    <p>An AI's ecological footprint depends heavily on where the server is located. In the US or Asia, many data centers still run on coal (emitting around 1 kg of CO₂ per kWh) or natural gas (around 400 g of CO₂ per kWh).</p>
+    <p>Data center location is a critical factor, as the carbon intensity of electricity varies significantly depending on the local energy mix. Low-carbon electricity drastically reduces emissions linked to server usage.</p>
+    <p>Training a model in France emits far less CO₂ than training it in an American region dependent on fossil fuels.</p>
+  </div>
+  <div class="image-tondeuse">
+    <img src="img/datacenter_energie_renouv.png" alt="Data center powered by renewable energy">
+  </div>
+</div>
+
+<!-- SECTION 3: Industrial Use Cases -->
+<h2 class="titre-section">3. Concrete Use Cases</h2>
+
+<!-- Row 3: Veolia -->
+<div class="bloc-tondeuse">
+  <div class="texte-tondeuse">
+    <h3>Veolia Saves Water Through Real-Time Tracking</h3>
+    <p>Veolia leverages Mistral AI models to enhance monitoring and management across its water, waste, and energy facilities. The main goal is to help operators leverage available data more effectively, improve facility tracking, and optimize water and energy consumption.</p>
+  </div>
+  <div class="image-tondeuse">
+    <img src="img/veolia.png" alt="AI application for water management at Veolia">
+  </div>
+</div>
+
+<!-- Row 4: TotalEnergies -->
+<div class="bloc-tondeuse inverse">
+  <div class="texte-tondeuse">
+    <h3>TotalEnergies Predicts Faults and Optimizes Renewable Energy Output</h3>
+    <p>In a joint innovation lab, TotalEnergies deploys Mistral models to perform predictive maintenance on its industrial assets. AI detects equipment anomalies before failures occur, preventing emergency shutdowns that consume large amounts of energy.</p>
+    <p>Furthermore, AI models simulate and optimize wind and solar farm production, enabling better weather-based predictions and smoother integration of green energy into the power grid.</p>
+  </div>
+  <div class="image-tondeuse">
+    <img src="img/images_total.jpeg" alt="Energy optimization at TotalEnergies">
+  </div>
+</div>
+
+  <!-- SECTION 4: Limits and Paradoxes -->
+  <h2 class="titre-section">4. Rebound Effect and Physical Reality: Behind the Scenes</h2>
+  <div class="grille-cartes">
+    <article class="carte-info">
+      <h3>The Rebound Effect (Jevons Paradox)</h3>
+      <p>As technology becomes more efficient, affordable, and faster, overall usage surges. Even if the footprint per request drops, the massive increase in global query volume risks offsetting all environmental gains.</p>
+    </article>
+
+    <article class="carte-info">
+      <h3>The Physical Reality of GPUs</h3>
+      <p>Even with low-carbon electricity, hardware itself carries a heavy environmental footprint: metal extraction and processing, chip manufacturing, servers, printed circuit boards, and electronic waste management.</p>
+    </article>
+
+    <article class="carte-info">
+      <h3>The Standardisation Challenge</h3>
+      <p>Due to the lack of a binding global standard, comparing Mistral AI's figures with those of American competitors remains difficult, as the latter do not publish their data with the same level of granularity.</p>
+    </article>
+  </div>
+
+</main>
+
+  <!-- Footer -->
+  <footer class="pied-de-page">
+    <p>Credits: POICHET Charles</p>
+    
+    <div class="pagination-pages">
+      <a href="economie.html">&laquo;</a>
+      <a href="../index.html">1</a>
+      <a href="histoire.html">2</a>
+      <a href="services.html">3</a>
+      <a href="economie.html">4</a>
+      <a href="#" class="page-active">5</a>
+      <a href="../index.html">&raquo;</a>
+    </div>
+
+    <div class="zone-droite-footer">
+      <a href="https://mistral.ai" target="_blank" rel="noopener">Official Website</a>
+    </div>
+  </footer>
+
+</body>
+</html>
