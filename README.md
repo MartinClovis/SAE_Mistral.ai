@@ -14,11 +14,11 @@
     └── img/                # Dossier pour les médias
         ├── contributeur.png
         ├── Mistral_AI_logo.png
-        ├── W3C_Accueil.png
-        ├── W3C_Histoire.png
-        ├── W3C_Services.png
-        ├── W3C_Economie.png
-        ├── W3C_Ecologie.png
+        ├── EcoIndex / W3C _Accueil.png
+        ├── EcoIndex / W3C _Histoire.png
+        ├── EcoIndex / W3C _Services.png
+        ├── EcoIndex / W3C _Economie.png
+        ├── EcoIndex / W3C _Ecologie.png
         ├── arr_evolution.png
         ├── datacenter_energie_renouv.png
         ├── favicon.ico
