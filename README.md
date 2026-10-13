@@ -101,6 +101,28 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/#textarea)
 
 ![capture d'écran de la conformité de la page ecologie](site/img/W3C_Ecologie.png)
 
+### Verification EcoIndex
+
+**EcoIndex Accueil** [Détail ICI](https://www.ecoindex.fr/resultat/?id=a98ec8c9-5913-4cb8-a7c9-6a2cda8bd070)
+
+![capture d'écran de la conformité de la page economie](site/img/EcoIndex_Accueil.png)
+
+**EcoIndex Histoire** [Détail ICI](https://www.ecoindex.fr/resultat/?id=f0a5a6bd-c3b0-47d0-a1b8-0c8f3c80b367)
+
+![capture d'écran de la conformité de la page economie](site/img/EcoIndex_Histoire.png)
+
+**EcoIndex Services** [Détail ICI](https://www.ecoindex.fr/resultat/?id=534de90b-8fd0-4d21-b40d-245856259769)
+
+![capture d'écran de la conformité de la page economie](site/img/EcoIndex_Services.png)
+
+**EcoIndex Economie** [Détail ICI](https://www.ecoindex.fr/resultat/?id=e32b5161-3af1-4f90-b79d-92238aa3ae3f)
+
+![capture d'écran de la conformité de la page economie](site/img/EcoIndex_Economie.png)
+
+**EcoIndex Ecologie** [Détail ICI](https://www.ecoindex.fr/resultat/?id=621ee060-8bc7-4585-9d54-cfbcd27d2462)
+
+![capture d'écran de la conformité de la page economie](site/img/EcoIndex_Ecologie.png)
+
 ## Recherche d'information
 
 - POICHET Charles, RBAIHI Inas, MARTIN Clovis, OZDEMIR Dogan -> recherche sur le contenu de la page d'accueil
