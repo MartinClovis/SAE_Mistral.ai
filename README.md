@@ -12,7 +12,7 @@
     ├── css/
     │   └── style.css       # Styles
     └── img/                # Dossier pour les médias
-        ├── Contributeur.png
+        ├── contributeur.png
         ├── Mistral_AI_logo.png
         ├── W3C_Accueil.png
         ├── W3C_Histoire.png
@@ -170,4 +170,4 @@ décarbonés.
 
 ## Contributeurs
 
-![capture d'écran sur la contribution des membres du projet](site/img/Contributeur.png)
+![capture d'écran sur la contribution des membres du projet](site/img/contributeur.png)
